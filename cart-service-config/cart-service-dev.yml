@@ -4,15 +4,15 @@ eureka:
     prefer-ip-address: true
 spring:
   zipkin:
-    base-url: http://106.14.163.235:9411
+    base-url: http://localhost:9411
   sleuth:
     sampler:
       probability: 1
-  rabbitmq:
-    host: 111.231.119.253
-    port: 5672
-    username: root
-    password: root
+  #rabbitmq:
+    #host: 111.231.119.253
+    #port: 5672
+    #username: root
+    #password: root
   datasource:
      name: dev
      url: jdbc:mysql://106.14.163.235:3306/snailmall
